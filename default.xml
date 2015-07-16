@@ -43,16 +43,16 @@
 	<project path="device/generic/x86" name="RudyChin/device_generic_x86" groups="device,x86" />
 	<project path="device/google/accessory/arduino" name="RudyChin/device_google_accessory_arduino" groups="device,arduino" />
 	<project path="device/google/accessory/demokit" name="RudyChin/device_google_accessory_demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" remote="aosp" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" remote="aosp" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" remote="aosp" revision="jb-mr2.0.0-release" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" remote="aosp" revision="jb-mr2.0.0-release" />
 	<project path="device/sample" name="RudyChin/device_sample" groups="common" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" remote="aosp" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" remote="aosp" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" remote="aosp" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" remote="aosp" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" remote="aosp" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device,arndale" remote="aosp" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device,panda" remote="aosp" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" remote="aosp" revision="jb-release" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" remote="aosp" revision="jb-mr2.0.0-release" />
+  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" remote="aosp" revision="jb-release" />
+  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" remote="aosp" revision="jb-mr2.0.0-release" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" remote="aosp" revision="jb-release" />
+  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device,arndale" remote="aosp" revision="jb-mr2.0.0-release" />
+  <project path="device/ti/panda" name="device/ti/panda" groups="device,panda" remote="aosp" revision="jb-release" />
 	<project path="docs/source.android.com" name="RudyChin/platform_docs_source.android.com" groups="doc" />
 	<project path="external/aac" name="RudyChin/platform_external_aac" groups="common" />
 	<project path="external/android-clat" name="RudyChin/platform_external_android-clat" groups="common" />
@@ -83,7 +83,7 @@
 	<project path="external/dropbear" name="RudyChin/platform_external_dropbear" groups="devel" />
 	<project path="external/e2fsprogs" name="RudyChin/platform_external_e2fsprogs" groups="common" />
 	<project path="external/easymock" name="RudyChin/platform_external_easymock" groups="common" />
-	<project path="external/eclipse-basebuilder" name="RudyChin/platform_external_eclipse-basebuilder" groups="common" />
+	<project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="common" remote="aosp" revision="jb-release"/>
 	<project path="external/eclipse-windowbuilder" name="RudyChin/platform_external_eclipse-windowbuilder" groups="common" />
 	<project path="external/eigen" name="RudyChin/platform_external_eigen" groups="common" />
 	<project path="external/elfutils" name="RudyChin/platform_external_elfutils" groups="common" />
@@ -340,7 +340,7 @@
 	<project path="prebuilts/clang/linux-x86/3.1" name="RudyChin/platform_prebuilts_clang_linux-x86_3.1" groups="linux,clang3.1" />
 	<project path="prebuilts/clang/linux-x86/3.2" name="RudyChin/platform_prebuilts_clang_linux-x86_3.2" groups="linux,clang3.2" />
 	<project path="prebuilts/devtools" name="RudyChin/platform_prebuilts_devtools" groups="common" />
-	<project path="prebuilts/eclipse" name="RudyChin/platform_prebuilts_eclipse" groups="common,eclipse" />
+	<project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="common,eclipse" remote="aosp" revision="jb-release" />
 	<project path="prebuilts/eclipse-build-deps" name="RudyChin/platform_prebuilts_eclipse-build-deps" groups="eclipse" />
 	<project path="prebuilts/eclipse-build-deps-sources" name="RudyChin/platform_prebuilts_eclipse-build-deps-sources" groups="eclipse" />
 	<project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="RudyChin/platform_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" groups="darwin,gcc4.6,arm" />

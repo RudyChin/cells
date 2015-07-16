@@ -19,7 +19,7 @@ You can freely download the Cells code using Github, however, if you plan on con
 
 The general format for initializing the Cells source code is:
 
-    $ repo init -u https://cells-source.cs.columbia.edu/platform/manifest -b [BRANCH] -g [GROUPS]
+    $ repo init -u https://github.com/RudyChin/cells.git -b [BRANCH] -g [GROUPS]
 where:
 
 - **[BRANCH]** will specify the Android release. Currently only cells-jb is supported for the Jelly Bean (4.3) build.
@@ -30,8 +30,8 @@ We recommend the following repo initialization commands for building on Linux an
 We recommend the following repo initialization commands for building on Linux and OS X (respectively):
 
 
-    $ repo init -u https://cells-source.cs.columbia.edu/platform/manifest -b cells-jb -g common,linux,grouper
-    $ repo init -u https://cells-source.cs.columbia.edu/platform/manifest -b cells-jb -g common,darwin,grouper
+    $ repo init -u https://github.com/RudyChin/cells.git -b cells-jb -g common,linux,grouper
+    $ repo init -u https://github.com/RudyChin/cells.git -b cells-jb -g common,darwin,grouper
 After initializing the Cells source with one of the two above commands, you can download the code using:
 
 

@@ -24,7 +24,26 @@ For network trouble shooting issues and tips on saving network bandwidth, please
 
     $ mv kernel-goldfish kernel
     $ source source-me.sh
+    $ (choose aosp_arm-eng)
     $ make -j4
+
+### Run
+
+    $ emulator -kernel out/target/product/generic/kernel
+
+(Inside another console)
+
+    $ adb shell
+    $ cell create work
+    $ cell create home
+    $ cell start work
+    $ cell start home
+    $ cell switch home
+    $ cell switch work
+
+Checkout `cell` command through `cell -h`
+
+Happy hacking!
 
 ### License
 GNU [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html)

@@ -386,7 +386,7 @@
     <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- kernel repos: they need separate directories for now otherwise repo won't allow you to create branches! -->
-	<project path="kernel-goldfish" name="RudyChin/kernel_goldfish" groups="goldfish" remote="github" />
+	<project path="kernel-goldfish" name="RudyChin/kernel_goldfish" groups="goldfish" remote="github" revision="cells-jb-4.3" />
 
   <!-- Columbia Cells repos -->
 	<project path="vendor/columbia/cells" name="RudyChin/vendor_columbia_cells" groups="common" revision="cells-jb" remote="github" />

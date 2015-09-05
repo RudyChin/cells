@@ -12,7 +12,7 @@ This is a port version of Cells on Android Emulator
 
 For Linux users:
 
-    $ repo init -u https://github.com/RudyChin/cells.git -b goldfish -g common,linux,goldfish,pdk
+    $ repo init -u https://github.com/RudyChin/cells.git -b goldfish
 
 After initializing the Cells source with one of the two above commands, you can download the code using:
 

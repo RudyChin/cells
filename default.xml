@@ -9,7 +9,7 @@
              remote="aosp"
              sync-j="4" />
 
-    <project path="build" name="RudyChin/platform_build" groups="pdk" remote="github" >
+    <project path="build" name="RudyChin/platform_build" groups="pdk" remote="github" revision="goldfish" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -368,7 +368,7 @@
     <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
     <project path="sdk" name="platform/sdk" />
     <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-    <project path="system/core" name="RudyChin/platform_system_core" groups="pdk" remote="github" />
+    <project path="system/core" name="RudyChin/platform_system_core" groups="pdk" remote="github" revision="cells-jb-4.3" />
     <project path="system/extras" name="platform/system/extras" groups="pdk" />
     <project path="system/media" name="platform/system/media" groups="pdk" />
     <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -386,7 +386,7 @@
     <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- kernel repos: they need separate directories for now otherwise repo won't allow you to create branches! -->
-	<project path="kernel-goldfish" name="RudyChin/kernel_goldfish" groups="goldfish" />
+	<project path="kernel-goldfish" name="RudyChin/kernel_goldfish" groups="goldfish" remote="github" />
 
   <!-- Columbia Cells repos -->
 	<project path="vendor/columbia/cells" name="RudyChin/vendor_columbia_cells" groups="common" revision="cells-jb" remote="github" />
